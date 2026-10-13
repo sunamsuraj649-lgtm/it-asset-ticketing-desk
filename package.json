@@ -1,0 +1,12 @@
+{
+  "name": "it-asset-ticketing-desk",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix backend start",
+    "client": "npm --prefix client run dev -- --host 0.0.0.0 --port 4173",
+    "dev": "npx concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

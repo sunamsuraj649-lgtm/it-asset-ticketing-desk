@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Start Full Stack App",
+			"type": "shell",
+			"command": "cmd",
+			"args": [
+				"/c",
+				"set PATH=C:\\Program Files\\nodejs;%PATH% && \"C:\\Program Files\\nodejs\\npm.cmd\" run dev"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
